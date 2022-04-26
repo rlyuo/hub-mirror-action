@@ -2,7 +2,7 @@ name: new_my_rlyuo_image_move
 on:
   push:
     branches: 
-      - main
+      - master
 jobs:
   build:
     runs-on: ubuntu-latest

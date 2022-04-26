@@ -1,4 +1,4 @@
-name: image_move_rlyuo
+name: new_rlyuo_image_move
 on:
   push:
     branches: 
@@ -7,7 +7,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: image_move_rlyuo
+    - name: new_rlyuo_image_move
       uses: Yikun/hub-mirror-action@master 
       with:
         src: github/rlyuo

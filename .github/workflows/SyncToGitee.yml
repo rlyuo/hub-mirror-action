@@ -1,4 +1,4 @@
-name: Sync Github Repos To Gitee
+name: Sync_Github_Repos_To_Gitee
 
 on:
   push:

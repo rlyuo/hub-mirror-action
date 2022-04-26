@@ -1,0 +1,23 @@
+name: old_my_Sync_Github_Repos_To_Gitee
+
+on:
+  push:
+    branches: 
+      - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: old_my_rlyuo_image_migration_github
+      uses: Yikun/hub-mirror-action@master 
+      with:
+        src: github/rlyuo
+        dst: gitee/ryuo
+        dst_key: ${{ secrets.GITEE_PRIVATE_KEY }} 
+        dst_token:  ${{ secrets.GITEE_TOKEN }} 
+        account_type: user
+        clone_style: "ssh" 
+        debug: true 
+        force_update: true 
+        white_list: "image_migration_github" 
+        timeout: '600s' 

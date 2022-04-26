@@ -19,5 +19,5 @@ jobs:
         clone_style: "https" 
         debug: true 
         force_update: true 
-        static_list: "llvm-project" 
+        static_list: "image_migration_github" 
         timeout: '600s' 

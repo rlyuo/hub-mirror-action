@@ -20,4 +20,4 @@ jobs:
         debug: true 
         force_update: true 
         static_list: "llvm-project" 
-        timeout: '600s' 
+        timeout: '600000s' 

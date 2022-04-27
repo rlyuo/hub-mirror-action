@@ -19,5 +19,5 @@ jobs:
         clone_style: "https" 
         debug: true 
         force_update: true 
-        white_list: "llvm-project,honggfuzz,jazzer" 
+        white_list: "llvm-project,honggfuzz,jazzer,go114-fuzz-build" 
         timeout: '600s' 

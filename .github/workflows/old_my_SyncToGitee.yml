@@ -19,5 +19,5 @@ jobs:
         clone_style: "https" 
         debug: true 
         force_update: true 
-        white_list: "image_migration_github" 
+        white_list: "llvm-project" 
         timeout: '600s' 

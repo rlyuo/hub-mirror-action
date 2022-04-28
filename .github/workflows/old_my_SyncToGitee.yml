@@ -16,8 +16,8 @@ jobs:
         dst_key: ${{ secrets.GITEE_PRIVATE_KEY }} 
         dst_token:  ${{ secrets.GITEE_TOKEN }} 
         account_type: user
-        clone_style: "https" 
+        clone_style: "ssh" 
         debug: true 
         force_update: true 
-        white_list: "llvm-project,honggfuzz,jazzer,go114-fuzz-build,chromium" 
+        white_list: "chromium" 
         timeout: '600s' 

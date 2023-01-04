@@ -18,5 +18,5 @@ jobs:
         clone_style: "ssh" 
         debug: true 
         force_update: true 
-        white_list: "chromium" 
+        white_list: "checksec.sh" 
         timeout: '600s' 
